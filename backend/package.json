@@ -4,9 +4,9 @@
   "description": "An API for URL Shortener service.",
   "main": "index.js",
   "scripts": {
-    "dev": "npx nodemon index.js",
-    "start": "node index.js",
-    "build": "npm install"
+ 
+    "start": "node index.js"
+
   },
   "author": "TangoBee",
   "license": "MIT",
