@@ -8,8 +8,8 @@ const handleRedirectURLViewer = async (req, res) => {
 
   // Check if shortId ends with a "+". Which means user wants to see the original URL.
   const shortId =
-    paramShortId.length === 9 && paramShortId.endsWith("+")
-      ? paramShortId.substring(0, 8)
+     paramShortId.endsWith("+")
+      ? paramShortId.substring(0, 4)
       : paramShortId;
 
   // Get the info of the current visitor for analytics.
